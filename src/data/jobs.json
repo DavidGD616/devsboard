@@ -1,0 +1,1073 @@
+[
+    {
+      "jobs": [
+        {
+          "_id": {
+            "$oid": "6715943698cdc03114d6b7e8"
+          },
+          "id": "glassdoor_1005665226118",
+          "city": "Remote",
+          "company": "Bureau Billy",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-123.892715"
+              },
+              {
+                "$numberDouble": "43.00614"
+              }
+            ],
+            "_id": {
+              "$oid": "67adbf30cb944d6e5e58e05f"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.glassdoor.com/sql/2344021/bureau-billy-squarelogo-1576052455544.png",
+          "location": "Remote",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740873600000"
+            }
+          },
+          "remoteOk": true,
+          "salaryCurrency": "CAD",
+          "salaryInDollars": {
+            "$numberInt": "44161"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "80000"
+          },
+          "salaryMin": {
+            "$numberInt": "40000"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript"
+          ],
+          "title": "Javascript Developer",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=118&ao=1136043&s=58&guid=000001956d8cb89cbcdec0e43397d983&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_0896ec1e&cb=1741299694616&jobListingId=1005665226118&jrtk=5-yul1-0-1ilmope75j0r1800-d808e010cd82f18d",
+          "score": {
+            "$numberDouble": "9.184011459350586"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c82a66e8a15f39d9d5f8bc"
+          },
+          "id": "urn:li:jobPosting:4173805533",
+          "city": "Vienna, VA",
+          "company": "HRUCKUS",
+          "date": "2025-03-05",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-77.265176"
+              },
+              {
+                "$numberDouble": "38.901373"
+              }
+            ],
+            "_id": {
+              "$oid": "65bd7909de18425ce0e2967d"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.licdn.com/dms/image/v2/D4E0BAQGHiplZiroNMw/company-logo_100_100/company-logo_100_100/0/1735327876478/hruckus_logo?e=2147483647&v=beta&t=Paouh-KdDXczrR2kuxMM_ve6m7P_kkUA4UjYVCX1fnI",
+          "location": "Vienna, VA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741046400000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "linkedin",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript"
+          ],
+          "title": "Senior JavaScript Developer",
+          "url": "https://www.linkedin.com/jobs/view/senior-javascript-developer-at-hruckus-4173805533?position=3&pageNum=98&refId=elvnIiiwzUWKURWWv1CW1Q%3D%3D&trackingId=fZm3AyufRoVlv%2BzFJr%2F7xQ%3D%3D",
+          "score": {
+            "$numberDouble": "9.166450500488281"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c614230a7c684ed0441519"
+          },
+          "id": "glassdoor_1009658960259",
+          "city": "Remote",
+          "company": "Intellum",
+          "date": "2025-03-04",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-123.892715"
+              },
+              {
+                "$numberDouble": "43.00614"
+              }
+            ],
+            "_id": {
+              "$oid": "67adbf30cb944d6e5e58e05f"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.glassdoor.com/sql/1182003/intellum-squarelogo-1526980142575.png",
+          "location": "Remote",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740960000000"
+            }
+          },
+          "remoteOk": true,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript"
+          ],
+          "title": "Senior JavaScript Engineer",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=147&ao=1136043&s=58&guid=000001955fea8057a2257d66c109ec76&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_b623d421&cb=1741070959598&jobListingId=1009658960259&jrtk=5-yul1-0-1ilful06ij71o804-8e31ab08754b1ea8",
+          "score": {
+            "$numberDouble": "9.166450500488281"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c8249ce8a15f39d9d5c355"
+          },
+          "id": "urn:li:jobPosting:4173760002",
+          "city": "Alabama, United States",
+          "company": "Scopic",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-86.7892920871389"
+              },
+              {
+                "$numberDouble": "32.828865808"
+              }
+            ],
+            "_id": {
+              "$oid": "612372913bc1807245fb389b"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.licdn.com/dms/image/v2/C4D0BAQEQoSIwjB8Idw/company-logo_100_100/company-logo_100_100/0/1630557530713/scopic_software_logo?e=2147483647&v=beta&t=wUAZkVxjtpq5mqub3F-TQcyLwMvwKGSN92off8lYeEk",
+          "location": "Alabama, United States",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741132800000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "linkedin",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript"
+          ],
+          "title": "Talent Community - Full-stack JavaScript Developer",
+          "url": "https://www.linkedin.com/jobs/view/talent-community-full-stack-javascript-developer-at-scopic-4173760002?position=1&pageNum=66&refId=WMvSj%2Bn30Vd4jBvfrMo83g%3D%3D&trackingId=Llg3YH%2Fx0FTGdxiEp8Lx7g%3D%3D",
+          "score": {
+            "$numberDouble": "9.114583969116211"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c5fd2c3b2e342eec8ecd6c"
+          },
+          "id": "urn:li:jobPosting:4172090302",
+          "city": "Tempe, AZ",
+          "company": "Kforce Inc",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-111.93997"
+              },
+              {
+                "$numberDouble": "33.424343"
+              }
+            ],
+            "_id": {
+              "$oid": "66b861c08908c97ab01b911d"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.licdn.com/dms/image/v2/C4D0BAQEtonVHDHqAZQ/company-logo_100_100/company-logo_100_100/0/1639415775313/kforce_logo?e=2147483647&v=beta&t=NL8XuPikJ6Xfi1MKQk9TVePX6KdLB4m5KQFZdiHD8IA",
+          "location": "Tempe, AZ",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740960000000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "linkedin",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "vuejs"
+          ],
+          "title": "Javascript / VueJS Developer",
+          "url": "https://www.linkedin.com/jobs/view/javascript-vuejs-developer-at-kforce-inc-4172090302?position=1&pageNum=1&refId=0yu%2Fl2VA8SGuLHs4%2BPq%2BqQ%3D%3D&trackingId=TIrFaKrqdvNESadVUfAIZg%3D%3D",
+          "score": {
+            "$numberDouble": "8.874855041503906"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67a54bf3936f87055bffd903"
+          },
+          "id": "glassdoor_1009625521472",
+          "city": "Remote",
+          "company": "",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-123.892715"
+              },
+              {
+                "$numberDouble": "43.00614"
+              }
+            ],
+            "_id": {
+              "$oid": "67adbf30cb944d6e5e58e05f"
+            },
+            "type": "Point"
+          },
+          "img": "",
+          "location": "Remote",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741046400000"
+            }
+          },
+          "remoteOk": true,
+          "salaryCurrency": "INR",
+          "salaryInDollars": {
+            "$numberInt": "934"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "95000"
+          },
+          "salaryMin": {
+            "$numberInt": "60000"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "typescript"
+          ],
+          "title": "JavaScript/TypeScript Engineer",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=468&ao=1136043&s=58&guid=000001956d7754c39455a3e1caf23318&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_c439c3f9&cb=1741298292589&jobListingId=1009625521472&jrtk=5-yul1-0-1ilmnel89lvt9802-f928751686ae838e",
+          "score": {
+            "$numberDouble": "8.874855041503906"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c6469b44c0c2776004f8ec"
+          },
+          "id": "glassdoor_1009659230027",
+          "city": "Remote",
+          "company": "CLOUDRAY, INC",
+          "date": "2025-03-04",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-123.892715"
+              },
+              {
+                "$numberDouble": "43.00614"
+              }
+            ],
+            "_id": {
+              "$oid": "67adbf30cb944d6e5e58e05f"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.glassdoor.com/sql/428529/cloudray-squarelogo.png",
+          "location": "Remote",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740960000000"
+            }
+          },
+          "remoteOk": true,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "cloud"
+          ],
+          "title": "Sr JavaScript Developer - Cloud",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=106&ao=1136043&s=58&guid=00000195621fff47bc107bcd2517618a&src=GD_JOB_AD&t=SR&vt=w&cs=1_dafc8c1b&cb=1741108020091&jobListingId=1009659230027&jrtk=5-yul1-0-1ilh1vvsjm91c800-a7e6e2450d2f755f",
+          "score": {
+            "$numberDouble": "8.862573623657227"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c6e7423b2e342eec945fc0"
+          },
+          "id": "urn:li:jobPosting:4173091230",
+          "city": "New York, United States",
+          "company": "Pivotal Solutions",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-74.0059945"
+              },
+              {
+                "$numberDouble": "40.7127492"
+              }
+            ],
+            "_id": {
+              "$oid": "66c8ffe246532cb456f6c7c9"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.licdn.com/dms/image/v2/C4E0BAQGf2sm3ftnSHQ/company-logo_100_100/company-logo_100_100/0/1675369956153/pivotal_solutions_logo?e=2147483647&v=beta&t=c50z5kkUdIyCajGRymO4DGto7NBUzW4QbpxQoKKNac4",
+          "location": "New York, United States",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740960000000"
+            }
+          },
+          "remoteOk": true,
+          "salaryCurrency": "",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "linkedin",
+          "stackOptional": [],
+          "stackRequired": [
+            "vuejs",
+            "javascript"
+          ],
+          "title": "VueJS JavaScript Developer - REMOTE",
+          "url": "https://www.linkedin.com/jobs/view/vuejs-javascript-developer-remote-at-pivotal-solutions-4173091230?position=8&pageNum=0&refId=aCRiYJu2FsXWyOi%2BZ12nBQ%3D%3D&trackingId=D3fIJvWTRQk0Q7UrBnbcxg%3D%3D",
+          "score": {
+            "$numberDouble": "8.862573623657227"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "673d51e633a19c657894b3f8"
+          },
+          "id": "glassdoor_1009534048250",
+          "city": "Vienna, VA",
+          "company": "The Wallach Search Group",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-77.265176"
+              },
+              {
+                "$numberDouble": "38.901373"
+              }
+            ],
+            "_id": {
+              "$oid": "65bd7909de18425ce0e2967d"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.glassdoor.com/sql/2945806/the-wallach-search-group-squarelogo-1629793994710.png",
+          "location": "Vienna, VA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740960000000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "typescript"
+          ],
+          "title": "Sr. JavaScript/TypeScript Developer",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=648&ao=1136043&s=58&guid=000001956d62cd2eab4fde827185e690&src=GD_JOB_AD&t=SR&vt=w&cs=1_6e9f396a&cb=1741296947249&jobListingId=1009534048250&jrtk=5-yul1-0-1ilmm5jbkgcv6800-567721b8a8b00ef6",
+          "score": {
+            "$numberDouble": "8.862573623657227"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67ca1adcc51a0ef18149d8b6"
+          },
+          "id": "glassdoor_1009663492155",
+          "city": "Remote",
+          "company": "Luxoft",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-123.892715"
+              },
+              {
+                "$numberDouble": "43.00614"
+              }
+            ],
+            "_id": {
+              "$oid": "67adbf30cb944d6e5e58e05f"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.glassdoor.com/sql/116344/luxoft-squareLogo-1680621207572.png",
+          "location": "Remote",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741219200000"
+            }
+          },
+          "remoteOk": true,
+          "salaryCurrency": "INR",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "qa"
+          ],
+          "title": "Senior JavaScript QA Engineer",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=1033&ao=1136043&s=58&guid=000001956d78f80ea8902d36d64dcd36&src=GD_JOB_AD&t=SR&vt=w&cs=1_0ef20862&cb=1741298399923&jobListingId=1009663492155&jrtk=5-yul1-0-1ilmnhu2tkurl800-405205e7cc7ab35e",
+          "score": {
+            "$numberDouble": "8.862573623657227"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c6593f44c0c27760099596"
+          },
+          "id": "glassdoor_1009504217080",
+          "city": "Washington, DC",
+          "company": "Environmental Systems Research Institute, Inc.",
+          "date": "2025-03-04",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-77.04013"
+              },
+              {
+                "$numberDouble": "38.903797"
+              }
+            ],
+            "_id": {
+              "$oid": "66e7ca5d9722f470414b31f7"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.glassdoor.com/sql/4043/esri-squareLogo-1656513983856.png",
+          "location": "Washington, DC",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740787200000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "typescript"
+          ],
+          "title": "Sr. JavaScript/TypeScript Developer – ArcGIS Excalibur",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=545&ao=1136043&s=58&guid=000001955ecc9e34b5dbcdf0338be081&src=GD_JOB_AD&t=SR&vt=w&cs=1_061ff7ae&cb=1741052224744&jobListingId=1009504217080&jrtk=5-yul1-0-1ilfcp800l03v804-e90e24f984e238be",
+          "score": {
+            "$numberDouble": "8.838205337524414"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c7a13c8cdd97fce485e075"
+          },
+          "id": "glassdoor_1009660559273",
+          "city": "Remote",
+          "company": "",
+          "date": "2025-03-05",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-123.892715"
+              },
+              {
+                "$numberDouble": "43.00614"
+              }
+            ],
+            "_id": {
+              "$oid": "67adbf30cb944d6e5e58e05f"
+            },
+            "type": "Point"
+          },
+          "img": "",
+          "location": "Remote",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741046400000"
+            }
+          },
+          "remoteOk": true,
+          "salaryCurrency": "CAD",
+          "salaryInDollars": {
+            "$numberInt": "42321"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "60000"
+          },
+          "salaryMin": {
+            "$numberInt": "55000"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "react"
+          ],
+          "title": "Développeur Junior – JavaScript / React (100% Télétravail)",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=101&ao=1136043&s=58&guid=00000195660aed1989091f68e21b3b9c&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_9f7e3d82&cb=1741173747641&jobListingId=1009660559273&jrtk=5-yul1-0-1ilj0lrbvj0pd800-3bb28c124897a464",
+          "score": {
+            "$numberDouble": "8.838205337524414"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c82a21e8a15f39d9d5f607"
+          },
+          "id": "urn:li:jobPosting:4173397351",
+          "city": "Cupertino, CA",
+          "company": "TEKsystems",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-122.032196"
+              },
+              {
+                "$numberDouble": "37.322826"
+              }
+            ],
+            "_id": {
+              "$oid": "6673bf3a578c363986ec3bb9"
+            },
+            "type": "Point"
+          },
+          "img": "https://media.licdn.com/dms/image/v2/D4D0BAQEGWkPukExqDw/company-logo_100_100/company-logo_100_100/0/1737653799738/teksystems_logo?e=2147483647&v=beta&t=6Aj5tOBwMkVRPnms-moOgOPbFeomS_wF6qJGNSl9F4M",
+          "location": "Cupertino, CA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741132800000"
+            }
+          },
+          "remoteOk": true,
+          "salaryCurrency": "",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "linkedin",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "ruby"
+          ],
+          "title": "Full Stack Engineer (JavaScript/Ruby) REMOTE",
+          "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-javascript-ruby-remote-at-teksystems-4173397351?position=8&pageNum=17&refId=MnUYpJ5LkrNqiY4aIjX9yQ%3D%3D&trackingId=6lXSKK1oqgO%2FfvMbEADv3A%3D%3D",
+          "score": {
+            "$numberDouble": "8.838205337524414"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c552b4d13bd12c24dd72dc"
+          },
+          "id": "dice_a8da600437b537d7aea9b1055b5d6dc7",
+          "city": "Plano, Texas, USA",
+          "company": "Capital One",
+          "date": "2025-03-05",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-96.699234"
+              },
+              {
+                "$numberDouble": "33.019676"
+              }
+            ],
+            "_id": {
+              "$oid": "673d0d5f652bce2b50998b22"
+            },
+            "type": "Point"
+          },
+          "img": "https://d3qscgr6xsioh.cloudfront.net/z0f4ZioXQ1SYO9MSTJ0m_muselogo.png?format=webp",
+          "location": "Plano, Texas, USA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740979048000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "dice",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "data"
+          ],
+          "title": "Manager, Software Engineer, Full Stack (Javascript) (People Leader)",
+          "url": "https://www.dice.com/apply-redirect?applyData=eyJjb25maWd1cmVkVXJsIjoiaHR0cHM6Ly9hcHBsamFjay5jb20vYWRtaW4vYXBwbHBhc3MucGhwP2M9NjU0MTkzMzg4NiZmPWZiYTU5NDkxOGImaj00NDUwNjE2JmpwaWQ9NjgyMTUzNzY1NSIsImpvYklkIjoiOTY3MmM5YjUtNTIzZS00ZDEyLWFlNGUtOTI4ZmI5Yjk4Zjc0Iiwiam9iVGl0bGUiOiJNYW5hZ2VyLCBTb2Z0d2FyZSBFbmdpbmVlciwgRnVsbCBTdGFjayAoSmF2YXNjcmlwdCkgKFBlb3BsZSBMZWFkZXIpIiwiam9iVHlwZSI6InByb2dyYW1tYXRpYyJ9",
+          "score": {
+            "$numberDouble": "8.814094543457031"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c552b4d13bd12c24dd72d5"
+          },
+          "id": "dice_f7637cdfb1f2af78cf9126ed93f2f5b9",
+          "city": "Richmond, Virginia, USA",
+          "company": "Capital One",
+          "date": "2025-03-05",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-77.43465"
+              },
+              {
+                "$numberDouble": "37.53587"
+              }
+            ],
+            "_id": {
+              "$oid": "6710591c650bdc6ebcbaab01"
+            },
+            "type": "Point"
+          },
+          "img": "https://d3qscgr6xsioh.cloudfront.net/z0f4ZioXQ1SYO9MSTJ0m_muselogo.png?format=webp",
+          "location": "Richmond, Virginia, USA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740979048000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "dice",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "data"
+          ],
+          "title": "Manager, Software Engineer, Full Stack (Javascript) (People Leader)",
+          "url": "https://www.dice.com/apply-redirect?applyData=eyJjb25maWd1cmVkVXJsIjoiaHR0cHM6Ly9hcHBsamFjay5jb20vYWRtaW4vYXBwbHBhc3MucGhwP2M9NjU0MTkzMzg4NiZmPWZiYTU5NDkxOGImaj00NDUwNjYxJmpwaWQ9NjgyMTUzNzY1NSIsImpvYklkIjoiZjIyNWU3ZTktNDI3Zi00YWQ5LTgzNGMtOWFhNDAzNDdmZDdhIiwiam9iVGl0bGUiOiJNYW5hZ2VyLCBTb2Z0d2FyZSBFbmdpbmVlciwgRnVsbCBTdGFjayAoSmF2YXNjcmlwdCkgKFBlb3BsZSBMZWFkZXIpIiwiam9iVHlwZSI6InByb2dyYW1tYXRpYyJ9",
+          "score": {
+            "$numberDouble": "8.814094543457031"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c552b4d13bd12c24dd72ce"
+          },
+          "id": "dice_734444db6322f8235365a025d4217537",
+          "city": "McLean, Virginia, USA",
+          "company": "Capital One",
+          "date": "2025-03-05",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-77.17735"
+              },
+              {
+                "$numberDouble": "38.934036"
+              }
+            ],
+            "_id": {
+              "$oid": "673cac22aafc823c541d06b6"
+            },
+            "type": "Point"
+          },
+          "img": "https://d3qscgr6xsioh.cloudfront.net/z0f4ZioXQ1SYO9MSTJ0m_muselogo.png?format=webp",
+          "location": "McLean, Virginia, USA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1740979048000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "dice",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "data"
+          ],
+          "title": "Manager, Software Engineer, Full Stack (Javascript) (People Leader)",
+          "url": "https://www.dice.com/apply-redirect?applyData=eyJjb25maWd1cmVkVXJsIjoiaHR0cHM6Ly9hcHBsamFjay5jb20vYWRtaW4vYXBwbHBhc3MucGhwP2M9NjU0MTkzMzg4NiZmPWZiYTU5NDkxOGImaj00NDUwNjk2JmpwaWQ9NjgyMTUzNzY1NSIsImpvYklkIjoiOWFkMzIyNGEtNDVmNy00OGI0LWFlZDktZjBiMGM3ZGJmYjc5Iiwiam9iVGl0bGUiOiJNYW5hZ2VyLCBTb2Z0d2FyZSBFbmdpbmVlciwgRnVsbCBTdGFjayAoSmF2YXNjcmlwdCkgKFBlb3BsZSBMZWFkZXIpIiwiam9iVHlwZSI6InByb2dyYW1tYXRpYyJ9",
+          "score": {
+            "$numberDouble": "8.814094543457031"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c94595ee561aa5b5b15d13"
+          },
+          "id": "dice_dd18af94ca539cfee17895166e8423ea",
+          "city": "Richmond, Virginia, USA",
+          "company": "Capital One",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-77.43465"
+              },
+              {
+                "$numberDouble": "37.53587"
+              }
+            ],
+            "_id": {
+              "$oid": "6710591c650bdc6ebcbaab01"
+            },
+            "type": "Point"
+          },
+          "img": "https://d3qscgr6xsioh.cloudfront.net/z0f4ZioXQ1SYO9MSTJ0m_muselogo.png?format=webp",
+          "location": "Richmond, Virginia, USA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741229859000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "dice",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "data"
+          ],
+          "title": "Manager, Software Engineer, Full Stack (Javascript) (People Leader)",
+          "url": "https://www.dice.com/apply-redirect?applyData=eyJjb25maWd1cmVkVXJsIjoiaHR0cHM6Ly9hcHBsamFjay5jb20vYWRtaW4vYXBwbHBhc3MucGhwP2M9NjU0MTkzMzg4NiZmPWZiYTU5NDkxOGImaj01MjkxNDE3JmpwaWQ9NjgyMTUzNzY1NSIsImpvYklkIjoiODQxODM1NmYtMjQ4Ny00YTdlLWE2ODItODU0ZDkzOTI2OTRlIiwiam9iVGl0bGUiOiJNYW5hZ2VyLCBTb2Z0d2FyZSBFbmdpbmVlciwgRnVsbCBTdGFjayAoSmF2YXNjcmlwdCkgKFBlb3BsZSBMZWFkZXIpIiwiam9iVHlwZSI6InByb2dyYW1tYXRpYyJ9",
+          "score": {
+            "$numberDouble": "8.814094543457031"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c94594ee561aa5b5b15d0c"
+          },
+          "id": "dice_0e2e57e3b27c28755467bd5e15241973",
+          "city": "Plano, Texas, USA",
+          "company": "Capital One",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-96.699234"
+              },
+              {
+                "$numberDouble": "33.019676"
+              }
+            ],
+            "_id": {
+              "$oid": "673d0d5f652bce2b50998b22"
+            },
+            "type": "Point"
+          },
+          "img": "https://d3qscgr6xsioh.cloudfront.net/z0f4ZioXQ1SYO9MSTJ0m_muselogo.png?format=webp",
+          "location": "Plano, Texas, USA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741229859000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "dice",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "data"
+          ],
+          "title": "Manager, Software Engineer, Full Stack (Javascript) (People Leader)",
+          "url": "https://www.dice.com/apply-redirect?applyData=eyJjb25maWd1cmVkVXJsIjoiaHR0cHM6Ly9hcHBsamFjay5jb20vYWRtaW4vYXBwbHBhc3MucGhwP2M9NjU0MTkzMzg4NiZmPWZiYTU5NDkxOGImaj01MjkxNDAxJmpwaWQ9NjgyMTUzNzY1NSIsImpvYklkIjoiYzEwN2IwY2YtMjU0Mi00MjQ5LWFkZmItOWYwM2M4YmQzYzE4Iiwiam9iVGl0bGUiOiJNYW5hZ2VyLCBTb2Z0d2FyZSBFbmdpbmVlciwgRnVsbCBTdGFjayAoSmF2YXNjcmlwdCkgKFBlb3BsZSBMZWFkZXIpIiwiam9iVHlwZSI6InByb2dyYW1tYXRpYyJ9",
+          "score": {
+            "$numberDouble": "8.814094543457031"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67c94594ee561aa5b5b15d05"
+          },
+          "id": "dice_b3fa38102188b12b8ef3c0a30b0d33f4",
+          "city": "McLean, Virginia, USA",
+          "company": "Capital One",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-77.17735"
+              },
+              {
+                "$numberDouble": "38.934036"
+              }
+            ],
+            "_id": {
+              "$oid": "673cac22aafc823c541d06b6"
+            },
+            "type": "Point"
+          },
+          "img": "https://d3qscgr6xsioh.cloudfront.net/z0f4ZioXQ1SYO9MSTJ0m_muselogo.png?format=webp",
+          "location": "McLean, Virginia, USA",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741229859000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "dice",
+          "stackOptional": [],
+          "stackRequired": [
+            "javascript",
+            "data"
+          ],
+          "title": "Manager, Software Engineer, Full Stack (Javascript) (People Leader)",
+          "url": "https://www.dice.com/apply-redirect?applyData=eyJjb25maWd1cmVkVXJsIjoiaHR0cHM6Ly9hcHBsamFjay5jb20vYWRtaW4vYXBwbHBhc3MucGhwP2M9NjU0MTkzMzg4NiZmPWZiYTU5NDkxOGImaj01MjkxMzg1JmpwaWQ9NjgyMTUzNzY1NSIsImpvYklkIjoiMDczNzI2ZjYtYzM1NC00NDIyLTk2NzUtMGY2Nzc4Mjc4MWU2Iiwiam9iVGl0bGUiOiJNYW5hZ2VyLCBTb2Z0d2FyZSBFbmdpbmVlciwgRnVsbCBTdGFjayAoSmF2YXNjcmlwdCkgKFBlb3BsZSBMZWFkZXIpIiwiam9iVHlwZSI6InByb2dyYW1tYXRpYyJ9",
+          "score": {
+            "$numberDouble": "8.814094543457031"
+          }
+        },
+        {
+          "_id": {
+            "$oid": "67a54702936f87055bfe7f60"
+          },
+          "id": "glassdoor_1009627691711",
+          "city": "Cedar Park, TX",
+          "company": "Blocktrace, LLC ",
+          "date": "2025-03-06",
+          "geometry": {
+            "coordinates": [
+              {
+                "$numberDouble": "-97.8203"
+              },
+              {
+                "$numberDouble": "30.5052"
+              }
+            ],
+            "_id": {
+              "$oid": "612378b03bc1807245fc129b"
+            },
+            "type": "Point"
+          },
+          "img": "",
+          "location": "Cedar Park, TX",
+          "postedDate": {
+            "$date": {
+              "$numberLong": "1741132800000"
+            }
+          },
+          "remoteOk": false,
+          "salaryCurrency": "USD",
+          "salaryInDollars": {
+            "$numberInt": "-1"
+          },
+          "salaryIsApproximated": false,
+          "salaryMax": {
+            "$numberInt": "-1"
+          },
+          "salaryMin": {
+            "$numberInt": "-1"
+          },
+          "source": "glassdoor",
+          "stackOptional": [],
+          "stackRequired": [
+            "typescript",
+            "javascript"
+          ],
+          "title": "Senior Full Stack TypeScript/JavaScript Engineer (U.S. Citizens ONLY)",
+          "url": "https://www.glassdoor.com/partner/jobListing.htm?pos=307&ao=1136043&s=58&guid=000001956d62544e8dcf1280f3421837&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_5e9c5cfb&cb=1741296916482&jobListingId=1009627691711&jrtk=5-yul1-0-1ilmm4l4km21g800-4788f77a5e81d01e",
+          "score": {
+            "$numberDouble": "8.802135467529297"
+          }
+        }
+      ],
+      "data": [
+        {
+          "meta": {
+            "count": {
+              "total": {
+                "$numberLong": "4554"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
