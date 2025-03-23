@@ -1,5 +1,5 @@
-import Hero from "@/app/components/Hero";
-import Search from "@/app/components/Search";
+import Hero from "@/components/Hero";
+import Search from "@/components/Search";
 
 export default function Home() {
   return (
