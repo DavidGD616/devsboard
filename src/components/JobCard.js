@@ -1,4 +1,20 @@
 export default function JobCard({ job }) {
+    const formatRelativeDate = (dateString) => {
+        const date = new Date(dateString);
+        const now = new Date();
+        const diffTime = Math.abs(now - date);
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        
+        if (diffDays === 1) {
+            return '1 day ago';
+        } else if (diffDays < 30) {
+            return `${diffDays} days ago`;
+        } else {
+            const months = Math.floor(diffDays / 30);
+            return `${months} ${months === 1 ? 'month' : 'months'} ago`;
+        }
+    };
+
     return (
         <div className="bg-white rounded-lg p-4 md:p-6 flex flex-col md:flex-row gap-4 items-start md:items-center shadow-sm hover:shadow-md transition-shadow mb-4">
             {/* Left - Company Image */}
@@ -33,7 +49,7 @@ export default function JobCard({ job }) {
 
                 {/* Bottom Info */}
                 <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm text-gray-500">
-                    <span>{job.date}</span>
+                    <span>{formatRelativeDate(job.date)}</span>
                     <span>from {job.source}</span>
                     {job.salaryMin && job.salaryMax && 
                      Number(job.salaryMin.$numberInt) !== -1 && 
