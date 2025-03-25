@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import JobCard from "@/components/JobCard";
+import JobList from "@/components/JobList";
 import Search from "@/components/Search";
 
 export default async function Home() { //Remember to delete the async once you export to the component 
@@ -12,13 +13,7 @@ export default async function Home() { //Remember to delete the async once you e
     <div>
       <Hero />
       <Search />
-      <ul>
-        {jobList.map((job, index) => (
-          <li key={index}>
-            <JobCard job={job} />
-          </li>
-        ))}
-      </ul>
+      <JobList />
     </div>
   );
 }
