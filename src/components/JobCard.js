@@ -1,22 +1,6 @@
-export default function JobCard({ job }) {
-    const formatRelativeDate = (dateString) => {
-        const date = new Date(dateString);
-        const now = new Date();
-        const diffTime = Math.abs(now - date);
-        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-    
-        if (diffDays === 0) {
-            return 'Today';
-        } else if (diffDays === 1) {
-            return '1 day ago';
-        } else if (diffDays < 30) {
-            return `${diffDays} days ago`;
-        } else {
-            const months = Math.floor(diffDays / 30); // approx months
-            return `${months} ${months === 1 ? 'month' : 'months'} ago`;
-        }
-    };
+import { formatRelativeDate } from "@/lib/dateUtils";
 
+export default function JobCard({ job }) {
     return (
         <div className="bg-white rounded-lg p-4 md:p-6 flex flex-col md:flex-row gap-4 items-start md:items-center shadow-sm hover:shadow-md transition-shadow mb-4">
             {/* Left - Company Image */}
