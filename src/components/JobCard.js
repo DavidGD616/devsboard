@@ -1,4 +1,5 @@
 import { formatRelativeDate } from "@/lib/dateUtils";
+import Link from "next/link";
 
 export default function JobCard({ job }) {
     return (
@@ -49,9 +50,11 @@ export default function JobCard({ job }) {
 
             {/* Right - Action Button */}
             <div className="w-full md:w-auto flex items-center justify-center md:self-center">
-                <button className="w-full md:w-auto px-4 py-2 bg-black text-white rounded-full text-sm font-medium hover:bg-gray-800 transition-colors">
-                    View Job
-                </button>
+                <Link href={job.url} target="_blank" rel="noopener noreferrer">
+                    <button className="w-full md:w-auto px-4 py-2 bg-black text-white rounded-full text-sm font-medium hover:bg-gray-800 transition-colors">
+                        View Job
+                    </button>
+                </Link>
             </div>
         </div>
     );
