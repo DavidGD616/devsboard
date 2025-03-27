@@ -1,7 +1,8 @@
-// app/search/page.js
 import Search from "@/components/Search";
 import JobList from "@/components/JobList";
 import { fetchJobs } from "@/lib/fetchJobs";
+import { Suspense } from "react";
+import JobListSkeleton from "@/components/JobListSkeleton";
 
 export default async function SearchPage({ searchParams }) {
   // Ensure searchParams is resolved before using its properties
@@ -23,7 +24,9 @@ export default async function SearchPage({ searchParams }) {
   return (
     <div>
       <Search />
-      <JobList jobs={filteredJobs} />
+      <Suspense fallback={<JobListSkeleton />}>
+        <JobList jobs={filteredJobs} />
+      </Suspense>
     </div>
   );
 }
