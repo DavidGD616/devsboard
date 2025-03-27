@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import JobList from "@/components/JobList";
+import JobListSkeleton from "@/components/JobListSkeleton";
 import Search from "@/components/Search";
 import { Suspense } from "react";
 
@@ -8,7 +9,7 @@ export default async function Home() {
     <div>
       <Hero />
       <Search />
-      < Suspense fallback={<p>Loading Jobs...</p>} >
+      < Suspense fallback={<JobListSkeleton />} >
         <JobList />
       </Suspense>
     </div>
