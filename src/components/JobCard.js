@@ -19,7 +19,7 @@ export default function JobCard({ job }) {
                 <div className="flex flex-wrap items-center gap-2 md:gap-4 text-gray-600 mb-3">
                     <span>{job.company}</span>
                     <span>{job.city}</span>
-                    {job.remoteOk && <span className="text-green-600">Remote</span>}
+                    {job.remote_ok && <span className="text-green-600">Remote</span>}
                 </div>
 
                 {/* Tags */}
