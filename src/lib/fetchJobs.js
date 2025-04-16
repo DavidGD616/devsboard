@@ -5,9 +5,10 @@ export async function fetchJobs(page = 1, pageSize = 20) {
   const from = (page - 1) * pageSize;
   const to = page * pageSize - 1;
   
-  const { data, error } = await supabase
+  // Fetch data and an exact count of rows from the jobs table
+  const { data, count, error } = await supabase
     .from('jobs')
-    .select('*')
+    .select('*', { count: 'exact' })
     .range(from, to)
     .order('posted_date', { ascending: false });
   
@@ -15,5 +16,9 @@ export async function fetchJobs(page = 1, pageSize = 20) {
     throw new Error(`Failed to fetch jobs: ${error.message}`);
   }
   
-  return data;
+  // Calculate total pages based on the count and pageSize
+  const totalPages = count ? Math.ceil(count / pageSize) : 0;
+  
+  // Return an object with the data, count, and totalPages
+  return { data, count, totalPages };
 }
