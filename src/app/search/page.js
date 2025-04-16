@@ -11,8 +11,7 @@ export default async function SearchPage({ searchParams }) {
   const locationQuery = (sp.location || "").toLowerCase();
 
   // Fetch all jobs
-  const jobsData = await fetchJobs();
-  const jobList = jobsData[0].jobs;
+  const jobList = await fetchJobs();
 
   // Filter jobs based on the query parameters
   const filteredJobs = jobList.filter((job) => {
