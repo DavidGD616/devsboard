@@ -2,16 +2,19 @@
 import JobCard from "./JobCard";
 import { fetchJobs } from "@/lib/fetchJobs";
 
-// Accept an optional "jobs" prop. If not provided, fetch the jobs.
-export default async function JobList({ jobs: initialJobs } = {}) {
+// Accept an optional "jobs" prop and an optional "page" prop (default is 1).
+export default async function JobList({ jobs: initialJobs, page = 1 } = {}) {
   let jobList = [];
 
   if (initialJobs) {
-    // Use jobs provided via props (e.g., filtered jobs on the search page)
+    // Use jobs provided via props
     jobList = initialJobs;
   } else {
-    // Otherwise, fetch all jobs
-    jobList = await fetchJobs();
+    // Otherwise, fetch jobs for the current page (20 records per page)
+    const result = await fetchJobs(page, 20);
+    // result includes { data, count, totalPages } — we'll use only the data for rendering
+    jobList = result.data;
+    console.log("Fetched jobs:", result);
   }
 
   return (
