@@ -24,15 +24,15 @@ export default function Pagination() {
         </li>
 
         {/* A couple of pages, hide on smaller screens */}
-        <li className="hidden sm:block">
+        <li>
           <button className="px-3 py-1 rounded-md bg-gray-100 hover:bg-gray-200">2</button>
         </li>
-        <li className="hidden md:block">
+        <li>
           <button className="px-3 py-1 rounded-md bg-gray-100 hover:bg-gray-200">3</button>
         </li>
 
         {/* Ellipsis for overflow, only on md+ */}
-        <li className="hidden md:block">
+        <li>
           <span className="px-3 py-1">…</span>
         </li>
 
