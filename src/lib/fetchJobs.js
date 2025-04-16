@@ -1,7 +1,14 @@
+import supabase from "@/utils/supabase/client";
+
 export async function fetchJobs() {
-    const res = await fetch('http://localhost:3000/api/jobs');
-    if (!res.ok) {
-        throw new Error('Failed to fetch jobs')
-    }
-    return res.json()
+  const { data, error } = await supabase
+    .from('jobs')
+    .select('*')
+    .order('posted_date', { ascending: false });
+  
+  if (error) {
+    throw new Error(`Failed to fetch jobs: ${error.message}`);
+  }
+  
+  return data;
 }

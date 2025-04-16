@@ -24,7 +24,7 @@ export default function JobCard({ job }) {
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 mb-3">
-                    {job.stackRequired.map((tech, index) => (
+                    {job.stack_required.map((tech, index) => (
                         <span 
                             key={index}
                             className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm"
@@ -38,11 +38,11 @@ export default function JobCard({ job }) {
                 <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm text-gray-500">
                     <span>{formatRelativeDate(job.date)}</span>
                     <span>from {job.source}</span>
-                    {job.salaryMin && job.salaryMax && 
-                     Number(job.salaryMin.$numberInt) !== -1 && 
-                     Number(job.salaryMax.$numberInt) !== -1 && (
+                    {job.salary_min && job.salary_max && 
+                     Number(job.salary_min) !== -1 && 
+                     Number(job.salary_max) !== -1 && (
                         <span className="font-medium">
-                            ${Number(job.salaryMin.$numberInt).toLocaleString()} - ${Number(job.salaryMax.$numberInt).toLocaleString()}
+                            ${Number(job.salary_min).toLocaleString()} - ${Number(job.salary_max).toLocaleString()}
                         </span>
                     )}
                 </div>

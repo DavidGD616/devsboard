@@ -11,8 +11,7 @@ export default async function JobList({ jobs: initialJobs } = {}) {
     jobList = initialJobs;
   } else {
     // Otherwise, fetch all jobs
-    const jobsData = await fetchJobs();
-    jobList = jobsData[0].jobs;
+    jobList = await fetchJobs();
   }
 
   return (
