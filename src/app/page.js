@@ -13,7 +13,7 @@ export default async function Home() {
       < Suspense fallback={<JobListSkeleton />} >
         <JobList />
       </Suspense>
-      <Pagination />
+      {/* <Pagination /> */}
     </div>
   );
 }
