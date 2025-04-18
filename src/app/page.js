@@ -7,8 +7,8 @@ import JobListSkeleton from "@/components/JobListSkeleton";
 
 const CATEGORIES = [
   { key: "frontend", title: "Latest Frontend Developer Jobs" },
-  { key: "backend", title: "Backend Developer" },
-  { key: "fullstack", title: "Fullstack Developer" },
+  { key: "backend", title: "Latest Backend Developer Jobs" },
+  { key: "fullstack", title: "Latest Fullstack Developer Jobs" },
 ];
 
 export default function Home() {
@@ -21,7 +21,6 @@ export default function Home() {
         <section key={key} className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">{title}</h2>
           <Suspense fallback={<JobListSkeleton />}>
-            {/* JobList will suspend until its fetch+filter finishes */}
             <JobList categoryKey={key} />
           </Suspense>
         </section>
