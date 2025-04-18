@@ -1,26 +1,29 @@
 // src/components/JobList.js
 import JobCard from "./JobCard";
-import { fetchJobs } from "@/lib/fetchJobs";
+import supabase from "@/utils/supabase/client";
 
-// Accept an optional "jobs" prop and an optional "page" prop (default is 1).
-export default async function JobList({ jobs: initialJobs, page = 1 } = {}) {
-  let jobList = [];
+export default async function JobList({ categoryKey } = {}) {
+  // 1️⃣ Fetch *all* jobs from Supabase
+  const { data: allJobs, error } = await supabase
+    .from("jobs")
+    .select("*");
+  if (error) throw error;
 
-  if (initialJobs) {
-    // Use jobs provided via props
-    jobList = initialJobs;
-  } else {
-    // Otherwise, fetch jobs for the current page (20 records per page)
-    const result = await fetchJobs(page, 20);
-    // result includes { data, count, totalPages } — we'll use only the data for rendering
-    jobList = result.data;
-    console.log("Fetched jobs:", result);
-  }
+  // 2️⃣ Filter by title or stack_required
+  const lower = categoryKey.toLowerCase();
+  const jobs = allJobs.filter((job) => {
+    const title = job.title?.toLowerCase() || "";
+    const stacks = Array.isArray(job.stack_required)
+      ? job.stack_required.map((s) => s.toLowerCase())
+      : [];
+    return title.includes(lower) || stacks.includes(lower);
+  });
 
+  // 3️⃣ Render the filtered list
   return (
-    <ul>
-      {jobList.map((job, index) => (
-        <li key={index}>
+    <ul className="space-y-4">
+      {jobs.map((job) => (
+        <li key={job.id}>
           <JobCard job={job} />
         </li>
       ))}
