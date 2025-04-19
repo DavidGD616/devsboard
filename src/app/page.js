@@ -1,9 +1,7 @@
 // src/app/page.js
-import { Suspense } from "react";
 import Hero from "@/components/Hero";
 import Search from "@/components/Search";
-import JobList from "@/components/JobList";
-import JobListSkeleton from "@/components/JobListSkeleton";
+import CategoryJobSection from "@/components/CategoryJobSection";
 
 const CATEGORIES = [
   { key: "frontend", title: "Latest Frontend Developer Jobs" },
@@ -18,12 +16,12 @@ export default function Home() {
       <Search />
 
       {CATEGORIES.map(({ key, title }) => (
-        <section key={key} className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">{title}</h2>
-          <Suspense fallback={<JobListSkeleton />}>
-            <JobList categoryKey={key} />
-          </Suspense>
-        </section>
+        <CategoryJobSection
+          key={key}
+          categoryKey={key}
+          title={title}
+          limit={5}
+        />
       ))}
     </>
   );
