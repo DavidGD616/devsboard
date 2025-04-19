@@ -14,7 +14,6 @@ export default function Home() {
     <>
       <Hero />
       <Search />
-
       <section className="py-12">
           {CATEGORIES.map(({ key, title, limit }) => (
             <CategoryJobSection
