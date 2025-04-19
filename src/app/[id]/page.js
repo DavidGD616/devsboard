@@ -1,21 +1,21 @@
 // src/app/[id]/page.js
 import Search from "@/components/Search";
 import JobList from "@/components/JobList";
+import Pagination from "@/components/Pagination";
 import { fetchCategoryJobs } from "@/lib/fetchCategoryJobs";
 
-export default async function CategoryPage({ params }) {
-  // await params so params.id is available
+export default async function CategoryPage({ params, searchParams }) {
   const { id } = await params;
+  const { page } = await searchParams;
+  
+  const currentPage = Number(page) || 1;
   const title = `${id.charAt(0).toUpperCase() + id.slice(1)} Developer Jobs`;
 
-  // fetch with pagination info
+  // fetch that page of jobs
   const { data: jobs, count, totalPages } = await fetchCategoryJobs(id, {
-    page: 1,
+    page: currentPage,
     pageSize: 20,
   });
-
-  // log the fetched array and pagination metadata
-  console.log({ category: id, jobs, count, totalPages });
 
   return (
     <>
@@ -28,6 +28,12 @@ export default async function CategoryPage({ params }) {
       <section className="pb-8">
         <JobList jobs={jobs} />
       </section>
+
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        basePath={`/${id}`}
+      />
     </>
   );
 }
