@@ -15,14 +15,16 @@ export default function Home() {
       <Hero />
       <Search />
 
-      {CATEGORIES.map(({ key, title, limit }) => (
-        <CategoryJobSection
-          key={key}
-          categoryKey={key}
-          title={title}
-          limit={limit}
-        />
-      ))}
+      <section className="py-12">
+          {CATEGORIES.map(({ key, title, limit }) => (
+            <CategoryJobSection
+              key={key}
+              categoryKey={key}
+              title={title}
+              limit={limit}
+            />
+          ))}
+      </section>
     </>
   );
 }
