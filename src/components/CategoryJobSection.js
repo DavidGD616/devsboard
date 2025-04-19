@@ -2,12 +2,19 @@ import { Suspense } from 'react'
 import JobList from './JobList'
 import JobListSkeleton from './JobListSkeleton'
 import { fetchCategoryJobs } from '@/lib/fetchCategoryJobs'
+import Link from 'next/link'
 
 export default function CategoryJobSection({ categoryKey, title, limit }) {
   return (
     <section className="mb-8">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-semibold">{title}</h2>
+        <Link 
+          href={`/categories/${categoryKey}`}
+          className="text-black hover:font-bold hover:underline transition-colors"
+        >
+          See all
+        </Link>
       </div>
 
       <Suspense fallback={<JobListSkeleton />}>
