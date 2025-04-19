@@ -3,9 +3,10 @@ import JobList from "@/components/JobList";
 import { fetchCategoryJobs } from "@/lib/fetchCategoryJobs";
 
 export default async function CategoryPage({ params }) {
-  const { id } = params;
+  const { id } = await params;
   const title = `${id.charAt(0).toUpperCase() + id.slice(1)} Developer Jobs`;
   const { data: jobs } = await fetchCategoryJobs(id);
+  console.log(jobs)
 
   return (
     <>
