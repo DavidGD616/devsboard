@@ -3,7 +3,7 @@ import JobList from './JobList'
 import JobListSkeleton from './JobListSkeleton'
 import { fetchCategoryJobs } from '@/lib/fetchCategoryJobs'
 
-export default function CategoryJobSection({ categoryKey, title, limit = 10 }) {
+export default function CategoryJobSection({ categoryKey, title, limit }) {
   return (
     <section className="mb-8">
       <div className="flex justify-between items-center mb-4">

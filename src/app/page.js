@@ -4,9 +4,9 @@ import Search from "@/components/Search";
 import CategoryJobSection from "@/components/CategoryJobSection";
 
 const CATEGORIES = [
-  { key: "frontend", title: "Latest Frontend Developer Jobs" },
-  { key: "backend", title: "Latest Backend Developer Jobs" },
-  { key: "fullstack", title: "Latest Fullstack Developer Jobs" },
+  { key: "frontend",  title: "Latest Frontend Developer Jobs",  limit: 5 },
+  { key: "backend",   title: "Latest Backend Developer Jobs",   limit: 5 },
+  { key: "fullstack", title: "Latest Fullstack Developer Jobs", limit: 5 },
 ];
 
 export default function Home() {
@@ -15,12 +15,12 @@ export default function Home() {
       <Hero />
       <Search />
 
-      {CATEGORIES.map(({ key, title }) => (
+      {CATEGORIES.map(({ key, title, limit }) => (
         <CategoryJobSection
           key={key}
           categoryKey={key}
           title={title}
-          limit={5}
+          limit={limit}
         />
       ))}
     </>
