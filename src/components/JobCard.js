@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function JobCard({ job }) {
     return (
-        <div className="bg-white rounded-lg p-4 md:p-6 flex flex-col md:flex-row gap-4 items-start md:items-center shadow-sm hover:shadow-md transition-shadow mb-4">
+        <div className="bg-white rounded-lg p-4 md:p-6 grid grid-cols-1 md:grid-cols-[auto_1fr_auto] gap-4 items-start shadow-sm hover:shadow-md transition-shadow mb-4">
             {/* Left - Company Image */}
-            <div className="w-16 h-16 bg-gray-100 rounded-lg overflow-hidden flex-shrink-0">
+            <div className="w-16 h-16 bg-gray-100 rounded-lg overflow-hidden">
                 {job.img ? (
                     <img src={job.img} alt={`${job.company} logo`} className="w-full h-full object-cover" />
                 ) : (
@@ -14,7 +14,7 @@ export default function JobCard({ job }) {
             </div>
 
             {/* Middle - Main Content */}
-            <div className="flex-grow">
+            <div className="min-w-0">
                 <h2 className="text-xl font-semibold mb-2">{job.title}</h2>
                 <div className="flex flex-wrap items-center gap-2 md:gap-4 text-gray-600 mb-3">
                     <span>{job.company}</span>
@@ -49,7 +49,7 @@ export default function JobCard({ job }) {
             </div>
 
             {/* Right - Action Button */}
-            <div className="w-full md:w-auto flex items-center justify-center md:self-center">
+            <div className="justify-self-stretch md:justify-self-end self-center">
                 <Link href={job.url} target="_blank" rel="noopener noreferrer">
                     <button className="w-full md:w-auto px-4 py-2 bg-black text-white rounded-full text-sm font-medium hover:bg-gray-800 transition-colors">
                         View Job
