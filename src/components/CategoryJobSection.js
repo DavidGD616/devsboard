@@ -34,6 +34,10 @@ export default function CategoryJobSection({ categoryKey, title, limit }) {
 }
 
 async function AsyncCategoryJobs({ categoryKey, limit }) {
-  const { data: jobs } = await fetchCategoryJobs(categoryKey, { limit })
+  const { data: jobs, count, totalPages } = await fetchCategoryJobs(categoryKey, {
+    page: 1,
+    pageSize: limit,
+  })
+
   return <JobList jobs={jobs} />
 }
