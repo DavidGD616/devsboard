@@ -12,7 +12,7 @@ export default function Search() {
   const debounceRef = useRef(null);
 
   useEffect(() => {
-    Radar.initialize(process.env.NEXT_PUBLIC_RADAR_PUBLISHABLE_KEY_TEST);
+    Radar.initialize(process.env.NEXT_PUBLIC_RADAR_PUBLISHABLE_KEY_TEST || process.env.NEXT_PUBLIC_RADAR_PUBLISHABLE_KEY);
   }, []);
 
   useEffect(() => {
