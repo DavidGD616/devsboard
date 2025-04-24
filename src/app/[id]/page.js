@@ -1,4 +1,6 @@
 // src/app/[id]/page.js
+export const dynamic = "force-dynamic";
+
 import Search from "@/components/Search";
 import JobList from "@/components/JobList";
 import Pagination from "@/components/Pagination";
