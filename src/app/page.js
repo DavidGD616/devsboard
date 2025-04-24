@@ -1,4 +1,6 @@
 // src/app/page.js
+export const dynamic = "force-dynamic";
+
 import Hero from "@/components/Hero";
 import Search from "@/components/Search";
 import CategoryJobSection from "@/components/CategoryJobSection";
