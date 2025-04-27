@@ -63,7 +63,7 @@ export async function POST() {
   
       while (true) {
         // Construct the hidden API URL with the current page number
-        const url = `https://data.mongodb-api.com/app/application-0-raktq/endpoint/searchFull?search=&locationText=United%20States&page=${page}&db=prod`;
+        const url = `https://data.mongodb-api.com/app/application-0-raktq/endpoint/searchFull?search=&locationText=United%20States&page=${page}&minPostedDate=2025-04-25&db=prod`;
   
         const response = await fetch(url, { headers: hiddenApiHeaders });
         if (!response.ok) {
